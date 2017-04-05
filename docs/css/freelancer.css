@@ -53,22 +53,22 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #031927;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #031927;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #031927;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #031927;
   color: white;
 }
 header .container {
@@ -103,7 +103,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #BA1200;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -132,8 +132,9 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: red;
+  background: white;
+ 
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
@@ -175,13 +176,14 @@ header .intro-text .skills {
 }
 section {
   padding: 100px 0;
+  background-color: #C8E0F4;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #031927;
   color: white;
 }
 @media (max-width: 767px) {
@@ -297,14 +299,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #031927;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #BA1200;
 }
 .btn-outline {
   color: white;
